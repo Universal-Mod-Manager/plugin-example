@@ -1,0 +1,5 @@
+{
+  "name": "SCP - Containment Breach",
+  "wasm_path": "plugin.wasm",
+  "icon_path": "icon.png"
+}
