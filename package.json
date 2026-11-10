@@ -1,0 +1,17 @@
+{
+  "name": "scpcb-plugin",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Example UMM game plugin for SCP - Containment Breach, written in TypeScript",
+  "scripts": {
+    "typecheck": "tsc",
+    "build": "node esbuild.js && extism-js build/index.js -i src/index.d.ts -o build/plugin.wasm",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "@extism/extism": "2.0.0-rc13",
+    "@extism/js-pdk": "^1.1.1",
+    "esbuild": "^0.28.2",
+    "typescript": "^5.9.3"
+  }
+}
